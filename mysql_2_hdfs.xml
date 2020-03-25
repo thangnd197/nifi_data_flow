@@ -1,0 +1,1887 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.3">
+    <description></description>
+    <groupId>12502c60-0171-1000-d5b4-897cc47110c7</groupId>
+    <name>mysql_2_hdfs</name>
+    <snippet>
+        <connections>
+            <id>490e9ed6-ba0b-35d3-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>ac35bb41-8de2-3efc-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>merged</selectedRelationships>
+            <source>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>9b915f00-d8d9-3862-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>61a3bde5-5e77-3102-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>1db423fd-a48b-37cf-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>32e5b0e0-6ad9-3f6e-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>70e763b0-0cfa-30df-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>b175587f-7405-3f10-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>ac35bb41-8de2-3efc-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>9c039801-d091-3c7e-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>e13f25ad-3421-3498-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>1db423fd-a48b-37cf-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <connections>
+            <id>a7ceeb13-417c-3e46-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+            <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+            <destination>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>9b915f00-d8d9-3862-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </destination>
+            <flowFileExpiration>0 sec</flowFileExpiration>
+            <labelIndex>1</labelIndex>
+            <loadBalanceCompression>DO_NOT_COMPRESS</loadBalanceCompression>
+            <loadBalancePartitionAttribute></loadBalancePartitionAttribute>
+            <loadBalanceStatus>LOAD_BALANCE_NOT_CONFIGURED</loadBalanceStatus>
+            <loadBalanceStrategy>DO_NOT_LOAD_BALANCE</loadBalanceStrategy>
+            <name></name>
+            <selectedRelationships>success</selectedRelationships>
+            <source>
+                <groupId>260bb85a-51b0-3a8a-0000-000000000000</groupId>
+                <id>e13f25ad-3421-3498-0000-000000000000</id>
+                <type>PROCESSOR</type>
+            </source>
+            <zIndex>0</zIndex>
+        </connections>
+        <controllerServices>
+            <id>5345d983-c1b6-3d9d-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <bundle>
+                <artifact>nifi-record-serialization-services-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <comments></comments>
+            <descriptors>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>
+                        <name>schema-access-strategy</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+                        <name>schema-registry</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>
+                        <name>schema-name</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                    <value>
+                        <name>schema-version</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                    <value>
+                        <name>schema-branch</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>
+                        <name>schema-text</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>csv-reader-csv-parser</key>
+                    <value>
+                        <name>csv-reader-csv-parser</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                    <value>
+                        <name>Date Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                    <value>
+                        <name>Time Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                    <value>
+                        <name>Timestamp Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>
+                        <name>CSV Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>
+                        <name>Value Separator</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Skip Header Line</key>
+                    <value>
+                        <name>Skip Header Line</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>ignore-csv-header</key>
+                    <value>
+                        <name>ignore-csv-header</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>
+                        <name>Quote Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>
+                        <name>Escape Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                    <value>
+                        <name>Comment Marker</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                    <value>
+                        <name>Null String</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>
+                        <name>Trim Fields</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>
+                        <name>csvutils-character-set</name>
+                    </value>
+                </entry>
+            </descriptors>
+            <name>CSVReader</name>
+            <persistsState>false</persistsState>
+            <properties>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>schema-text-property</value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>${schema.name}</value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>${avro.schema}</value>
+                </entry>
+                <entry>
+                    <key>csv-reader-csv-parser</key>
+                    <value>commons-csv</value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>custom</value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>|</value>
+                </entry>
+                <entry>
+                    <key>Skip Header Line</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>ignore-csv-header</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>"</value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>\</value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>true</value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>UTF-8</value>
+                </entry>
+            </properties>
+            <state>ENABLED</state>
+            <type>org.apache.nifi.csv.CSVReader</type>
+        </controllerServices>
+        <controllerServices>
+            <id>5bb423ec-2db6-306d-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <bundle>
+                <artifact>nifi-dbcp-service-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <comments></comments>
+            <descriptors>
+                <entry>
+                    <key>Database Connection URL</key>
+                    <value>
+                        <name>Database Connection URL</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Database Driver Class Name</key>
+                    <value>
+                        <name>Database Driver Class Name</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>database-driver-locations</key>
+                    <value>
+                        <name>database-driver-locations</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>kerberos-credentials-service</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+                        <name>kerberos-credentials-service</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Database User</key>
+                    <value>
+                        <name>Database User</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Password</key>
+                    <value>
+                        <name>Password</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Max Wait Time</key>
+                    <value>
+                        <name>Max Wait Time</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Max Total Connections</key>
+                    <value>
+                        <name>Max Total Connections</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Validation-query</key>
+                    <value>
+                        <name>Validation-query</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-min-idle-conns</key>
+                    <value>
+                        <name>dbcp-min-idle-conns</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-idle-conns</key>
+                    <value>
+                        <name>dbcp-max-idle-conns</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-conn-lifetime</key>
+                    <value>
+                        <name>dbcp-max-conn-lifetime</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-time-between-eviction-runs</key>
+                    <value>
+                        <name>dbcp-time-between-eviction-runs</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-min-evictable-idle-time</key>
+                    <value>
+                        <name>dbcp-min-evictable-idle-time</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>dbcp-soft-min-evictable-idle-time</key>
+                    <value>
+                        <name>dbcp-soft-min-evictable-idle-time</name>
+                    </value>
+                </entry>
+            </descriptors>
+            <name>DBCPConnectionPool</name>
+            <persistsState>false</persistsState>
+            <properties>
+                <entry>
+                    <key>Database Connection URL</key>
+                    <value>jdbc:mysql://localhost:3306/db_test_1</value>
+                </entry>
+                <entry>
+                    <key>Database Driver Class Name</key>
+                    <value>com.mysql.jdbc.Driver</value>
+                </entry>
+                <entry>
+                    <key>database-driver-locations</key>
+                    <value>/home/thangnd/tools/nifi-1.11.3/mysql-connector-java-8.0.17.jar</value>
+                </entry>
+                <entry>
+                    <key>kerberos-credentials-service</key>
+                </entry>
+                <entry>
+                    <key>Database User</key>
+                    <value>root</value>
+                </entry>
+                <entry>
+                    <key>Password</key>
+                </entry>
+                <entry>
+                    <key>Max Wait Time</key>
+                    <value>500 millis</value>
+                </entry>
+                <entry>
+                    <key>Max Total Connections</key>
+                    <value>8</value>
+                </entry>
+                <entry>
+                    <key>Validation-query</key>
+                </entry>
+                <entry>
+                    <key>dbcp-min-idle-conns</key>
+                    <value>0</value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-idle-conns</key>
+                    <value>8</value>
+                </entry>
+                <entry>
+                    <key>dbcp-max-conn-lifetime</key>
+                    <value>-1</value>
+                </entry>
+                <entry>
+                    <key>dbcp-time-between-eviction-runs</key>
+                    <value>-1</value>
+                </entry>
+                <entry>
+                    <key>dbcp-min-evictable-idle-time</key>
+                    <value>30 mins</value>
+                </entry>
+                <entry>
+                    <key>dbcp-soft-min-evictable-idle-time</key>
+                    <value>-1</value>
+                </entry>
+            </properties>
+            <state>ENABLED</state>
+            <type>org.apache.nifi.dbcp.DBCPConnectionPool</type>
+        </controllerServices>
+        <controllerServices>
+            <id>d06e1796-5493-3c69-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <bundle>
+                <artifact>nifi-record-serialization-services-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <comments></comments>
+            <descriptors>
+                <entry>
+                    <key>Schema Write Strategy</key>
+                    <value>
+                        <name>Schema Write Strategy</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-cache</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.serialization.RecordSchemaCacheService</identifiesControllerService>
+                        <name>schema-cache</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>
+                        <name>schema-access-strategy</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+                        <name>schema-registry</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>
+                        <name>schema-name</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                    <value>
+                        <name>schema-version</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                    <value>
+                        <name>schema-branch</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>
+                        <name>schema-text</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                    <value>
+                        <name>Date Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                    <value>
+                        <name>Time Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                    <value>
+                        <name>Timestamp Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>
+                        <name>CSV Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>
+                        <name>Value Separator</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Include Header Line</key>
+                    <value>
+                        <name>Include Header Line</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>
+                        <name>Quote Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>
+                        <name>Escape Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                    <value>
+                        <name>Comment Marker</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                    <value>
+                        <name>Null String</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>
+                        <name>Trim Fields</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Quote Mode</key>
+                    <value>
+                        <name>Quote Mode</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Record Separator</key>
+                    <value>
+                        <name>Record Separator</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Include Trailing Delimiter</key>
+                    <value>
+                        <name>Include Trailing Delimiter</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>
+                        <name>csvutils-character-set</name>
+                    </value>
+                </entry>
+            </descriptors>
+            <name>CSVRecordSetWriter</name>
+            <persistsState>false</persistsState>
+            <properties>
+                <entry>
+                    <key>Schema Write Strategy</key>
+                    <value>full-schema-attribute</value>
+                </entry>
+                <entry>
+                    <key>schema-cache</key>
+                </entry>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>inherit-record-schema</value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>${schema.name}</value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>${avro.schema}</value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>custom</value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>|</value>
+                </entry>
+                <entry>
+                    <key>Include Header Line</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>"</value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>\</value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>true</value>
+                </entry>
+                <entry>
+                    <key>Quote Mode</key>
+                    <value>MINIMAL</value>
+                </entry>
+                <entry>
+                    <key>Record Separator</key>
+                    <value>\n</value>
+                </entry>
+                <entry>
+                    <key>Include Trailing Delimiter</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>UTF-8</value>
+                </entry>
+            </properties>
+            <state>ENABLED</state>
+            <type>org.apache.nifi.csv.CSVRecordSetWriter</type>
+        </controllerServices>
+        <controllerServices>
+            <id>f677a16a-6055-3428-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <bundle>
+                <artifact>nifi-record-serialization-services-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <comments></comments>
+            <descriptors>
+                <entry>
+                    <key>Schema Write Strategy</key>
+                    <value>
+                        <name>Schema Write Strategy</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-cache</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.serialization.RecordSchemaCacheService</identifiesControllerService>
+                        <name>schema-cache</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>
+                        <name>schema-access-strategy</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                    <value>
+                        <identifiesControllerService>org.apache.nifi.schemaregistry.services.SchemaRegistry</identifiesControllerService>
+                        <name>schema-registry</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>
+                        <name>schema-name</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                    <value>
+                        <name>schema-version</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                    <value>
+                        <name>schema-branch</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>
+                        <name>schema-text</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                    <value>
+                        <name>Date Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                    <value>
+                        <name>Time Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                    <value>
+                        <name>Timestamp Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>
+                        <name>CSV Format</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>
+                        <name>Value Separator</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Include Header Line</key>
+                    <value>
+                        <name>Include Header Line</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>
+                        <name>Quote Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>
+                        <name>Escape Character</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                    <value>
+                        <name>Comment Marker</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                    <value>
+                        <name>Null String</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>
+                        <name>Trim Fields</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Quote Mode</key>
+                    <value>
+                        <name>Quote Mode</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Record Separator</key>
+                    <value>
+                        <name>Record Separator</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>Include Trailing Delimiter</key>
+                    <value>
+                        <name>Include Trailing Delimiter</name>
+                    </value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>
+                        <name>csvutils-character-set</name>
+                    </value>
+                </entry>
+            </descriptors>
+            <name>CSVRecordSetWriter no header</name>
+            <persistsState>false</persistsState>
+            <properties>
+                <entry>
+                    <key>Schema Write Strategy</key>
+                    <value>no-schema</value>
+                </entry>
+                <entry>
+                    <key>schema-cache</key>
+                </entry>
+                <entry>
+                    <key>schema-access-strategy</key>
+                    <value>inherit-record-schema</value>
+                </entry>
+                <entry>
+                    <key>schema-registry</key>
+                </entry>
+                <entry>
+                    <key>schema-name</key>
+                    <value>${schema.name}</value>
+                </entry>
+                <entry>
+                    <key>schema-version</key>
+                </entry>
+                <entry>
+                    <key>schema-branch</key>
+                </entry>
+                <entry>
+                    <key>schema-text</key>
+                    <value>${avro.schema}</value>
+                </entry>
+                <entry>
+                    <key>Date Format</key>
+                </entry>
+                <entry>
+                    <key>Time Format</key>
+                </entry>
+                <entry>
+                    <key>Timestamp Format</key>
+                </entry>
+                <entry>
+                    <key>CSV Format</key>
+                    <value>custom</value>
+                </entry>
+                <entry>
+                    <key>Value Separator</key>
+                    <value>|</value>
+                </entry>
+                <entry>
+                    <key>Include Header Line</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>Quote Character</key>
+                    <value>"</value>
+                </entry>
+                <entry>
+                    <key>Escape Character</key>
+                    <value>\</value>
+                </entry>
+                <entry>
+                    <key>Comment Marker</key>
+                </entry>
+                <entry>
+                    <key>Null String</key>
+                </entry>
+                <entry>
+                    <key>Trim Fields</key>
+                    <value>true</value>
+                </entry>
+                <entry>
+                    <key>Quote Mode</key>
+                    <value>MINIMAL</value>
+                </entry>
+                <entry>
+                    <key>Record Separator</key>
+                    <value>\n</value>
+                </entry>
+                <entry>
+                    <key>Include Trailing Delimiter</key>
+                    <value>false</value>
+                </entry>
+                <entry>
+                    <key>csvutils-character-set</key>
+                    <value>UTF-8</value>
+                </entry>
+            </properties>
+            <state>ENABLED</state>
+            <type>org.apache.nifi.csv.CSVRecordSetWriter</type>
+        </controllerServices>
+        <processors>
+            <id>1db423fd-a48b-37cf-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>240.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>sql-pre-query</key>
+                        <value>
+                            <name>sql-pre-query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                        <value>
+                            <name>SQL select query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>sql-post-query</key>
+                        <value>
+                            <name>sql-post-query</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esqlrecord-record-writer</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.serialization.RecordSetWriterFactory</identifiesControllerService>
+                            <name>esqlrecord-record-writer</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esqlrecord-normalize</key>
+                        <value>
+                            <name>esqlrecord-normalize</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>
+                            <name>dbf-user-logical-types</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-max-rows</key>
+                        <value>
+                            <name>esql-max-rows</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-output-batch-size</key>
+                        <value>
+                            <name>esql-output-batch-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>esql-fetch-size</key>
+                        <value>
+                            <name>esql-fetch-size</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>5bb423ec-2db6-306d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>sql-pre-query</key>
+                    </entry>
+                    <entry>
+                        <key>SQL select query</key>
+                    </entry>
+                    <entry>
+                        <key>sql-post-query</key>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>esqlrecord-record-writer</key>
+                        <value>d06e1796-5493-3c69-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>esqlrecord-normalize</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>dbf-user-logical-types</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>esql-max-rows</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>esql-output-batch-size</key>
+                        <value>0</value>
+                    </entry>
+                    <entry>
+                        <key>esql-fetch-size</key>
+                        <value>0</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>ExecuteSQLRecord</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.ExecuteSQLRecord</type>
+        </processors>
+        <processors>
+            <id>32e5b0e0-6ad9-3f6e-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.dbcp.DBCPService</identifiesControllerService>
+                            <name>Database Connection Pooling Service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-db-type</key>
+                        <value>
+                            <name>db-fetch-db-type</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Table Name</key>
+                        <value>
+                            <name>Table Name</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Columns to Return</key>
+                        <value>
+                            <name>Columns to Return</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum-value Columns</key>
+                        <value>
+                            <name>Maximum-value Columns</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>
+                            <name>Max Wait Time</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-fetch-partition-size</key>
+                        <value>
+                            <name>gen-table-fetch-partition-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-column-for-val-partitioning</key>
+                        <value>
+                            <name>gen-table-column-for-val-partitioning</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-where-clause</key>
+                        <value>
+                            <name>db-fetch-where-clause</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-custom-orderby-column</key>
+                        <value>
+                            <name>gen-table-custom-orderby-column</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-output-flowfile-on-zero-results</key>
+                        <value>
+                            <name>gen-table-output-flowfile-on-zero-results</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>PRIMARY</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Database Connection Pooling Service</key>
+                        <value>5bb423ec-2db6-306d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-db-type</key>
+                        <value>MySQL</value>
+                    </entry>
+                    <entry>
+                        <key>Table Name</key>
+                        <value>${table_name}</value>
+                    </entry>
+                    <entry>
+                        <key>Columns to Return</key>
+                    </entry>
+                    <entry>
+                        <key>Maximum-value Columns</key>
+                    </entry>
+                    <entry>
+                        <key>Max Wait Time</key>
+                        <value>0 seconds</value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-fetch-partition-size</key>
+                        <value>10000</value>
+                    </entry>
+                    <entry>
+                        <key>gen-table-column-for-val-partitioning</key>
+                    </entry>
+                    <entry>
+                        <key>db-fetch-where-clause</key>
+                    </entry>
+                    <entry>
+                        <key>gen-table-custom-orderby-column</key>
+                    </entry>
+                    <entry>
+                        <key>gen-table-output-flowfile-on-zero-results</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>1000 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>GenerateTableFetch</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.GenerateTableFetch</type>
+        </processors>
+        <processors>
+            <id>9b915f00-d8d9-3862-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>504.0</x>
+                <y>240.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Merge Strategy</key>
+                        <value>
+                            <name>Merge Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Merge Format</key>
+                        <value>
+                            <name>Merge Format</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Attribute Strategy</key>
+                        <value>
+                            <name>Attribute Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Correlation Attribute Name</key>
+                        <value>
+                            <name>Correlation Attribute Name</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>mergecontent-metadata-strategy</key>
+                        <value>
+                            <name>mergecontent-metadata-strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Number of Entries</key>
+                        <value>
+                            <name>Minimum Number of Entries</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Number of Entries</key>
+                        <value>
+                            <name>Maximum Number of Entries</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Group Size</key>
+                        <value>
+                            <name>Minimum Group Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Group Size</key>
+                        <value>
+                            <name>Maximum Group Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Max Bin Age</key>
+                        <value>
+                            <name>Max Bin Age</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Maximum number of Bins</key>
+                        <value>
+                            <name>Maximum number of Bins</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Delimiter Strategy</key>
+                        <value>
+                            <name>Delimiter Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Header File</key>
+                        <value>
+                            <name>Header File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Footer File</key>
+                        <value>
+                            <name>Footer File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Demarcator File</key>
+                        <value>
+                            <name>Demarcator File</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression Level</key>
+                        <value>
+                            <name>Compression Level</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Keep Path</key>
+                        <value>
+                            <name>Keep Path</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Tar Modified Time</key>
+                        <value>
+                            <name>Tar Modified Time</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Merge Strategy</key>
+                        <value>Bin-Packing Algorithm</value>
+                    </entry>
+                    <entry>
+                        <key>Merge Format</key>
+                        <value>Binary Concatenation</value>
+                    </entry>
+                    <entry>
+                        <key>Attribute Strategy</key>
+                        <value>Keep Only Common Attributes</value>
+                    </entry>
+                    <entry>
+                        <key>Correlation Attribute Name</key>
+                    </entry>
+                    <entry>
+                        <key>mergecontent-metadata-strategy</key>
+                        <value>Do Not Merge Uncommon Metadata</value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Number of Entries</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Number of Entries</key>
+                        <value>10000</value>
+                    </entry>
+                    <entry>
+                        <key>Minimum Group Size</key>
+                        <value>200MB</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum Group Size</key>
+                        <value>250 MB</value>
+                    </entry>
+                    <entry>
+                        <key>Max Bin Age</key>
+                        <value>5 secs</value>
+                    </entry>
+                    <entry>
+                        <key>Maximum number of Bins</key>
+                        <value>5</value>
+                    </entry>
+                    <entry>
+                        <key>Delimiter Strategy</key>
+                        <value>Filename</value>
+                    </entry>
+                    <entry>
+                        <key>Header File</key>
+                    </entry>
+                    <entry>
+                        <key>Footer File</key>
+                    </entry>
+                    <entry>
+                        <key>Demarcator File</key>
+                    </entry>
+                    <entry>
+                        <key>Compression Level</key>
+                        <value>1</value>
+                    </entry>
+                    <entry>
+                        <key>Keep Path</key>
+                        <value>false</value>
+                    </entry>
+                    <entry>
+                        <key>Tar Modified Time</key>
+                        <value>${file.lastModifiedTime}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>MergeContent</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>merged</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>original</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.MergeContent</type>
+        </processors>
+        <processors>
+            <id>ac35bb41-8de2-3efc-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1008.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-update-attribute-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                        <value>
+                            <name>Delete Attributes Expression</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>
+                            <name>Store State</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                        <value>
+                            <name>Stateful Variables Initial Value</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>
+                            <name>canonical-value-lookup-cache-size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>filename</key>
+                        <value>
+                            <name>filename</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Delete Attributes Expression</key>
+                    </entry>
+                    <entry>
+                        <key>Store State</key>
+                        <value>Do not store state</value>
+                    </entry>
+                    <entry>
+                        <key>Stateful Variables Initial Value</key>
+                    </entry>
+                    <entry>
+                        <key>canonical-value-lookup-cache-size</key>
+                        <value>100</value>
+                    </entry>
+                    <entry>
+                        <key>filename</key>
+                        <value>${table_name}_${now():toNumber():format('yyyyMMddHHmmss')}_${uuid}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>UpdateAttribute</name>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+        </processors>
+        <processors>
+            <id>b175587f-7405-3f10-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>1000.0</x>
+                <y>240.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-hadoop-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments></comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>
+                            <name>Hadoop Configuration Resources</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>kerberos-credentials-service</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.kerberos.KerberosCredentialsService</identifiesControllerService>
+                            <name>kerberos-credentials-service</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                        <value>
+                            <name>Kerberos Principal</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                        <value>
+                            <name>Kerberos Keytab</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>
+                            <name>Kerberos Relogin Period</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Additional Classpath Resources</key>
+                        <value>
+                            <name>Additional Classpath Resources</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>
+                            <name>Directory</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>
+                            <name>Conflict Resolution Strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                        <value>
+                            <name>Block Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                        <value>
+                            <name>IO Buffer Size</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                        <value>
+                            <name>Replication</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                        <value>
+                            <name>Permissions umask</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                        <value>
+                            <name>Remote Owner</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                        <value>
+                            <name>Remote Group</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>
+                            <name>Compression codec</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Locality</key>
+                        <value>
+                            <name>Ignore Locality</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>Hadoop Configuration Resources</key>
+                        <value>/home/thangnd/tools/core-site.xml,/home/thangnd/tools/hdfs-site.xml</value>
+                    </entry>
+                    <entry>
+                        <key>kerberos-credentials-service</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Principal</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Keytab</key>
+                    </entry>
+                    <entry>
+                        <key>Kerberos Relogin Period</key>
+                        <value>4 hours</value>
+                    </entry>
+                    <entry>
+                        <key>Additional Classpath Resources</key>
+                    </entry>
+                    <entry>
+                        <key>Directory</key>
+                        <value>/data/test/</value>
+                    </entry>
+                    <entry>
+                        <key>Conflict Resolution Strategy</key>
+                        <value>fail</value>
+                    </entry>
+                    <entry>
+                        <key>Block Size</key>
+                    </entry>
+                    <entry>
+                        <key>IO Buffer Size</key>
+                    </entry>
+                    <entry>
+                        <key>Replication</key>
+                    </entry>
+                    <entry>
+                        <key>Permissions umask</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Owner</key>
+                    </entry>
+                    <entry>
+                        <key>Remote Group</key>
+                    </entry>
+                    <entry>
+                        <key>Compression codec</key>
+                        <value>NONE</value>
+                    </entry>
+                    <entry>
+                        <key>Ignore Locality</key>
+                        <value>false</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>PutHDFS</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.hadoop.PutHDFS</type>
+        </processors>
+        <processors>
+            <id>e13f25ad-3421-3498-0000-000000000000</id>
+            <parentGroupId>260bb85a-51b0-3a8a-0000-000000000000</parentGroupId>
+            <position>
+                <x>512.0</x>
+                <y>0.0</y>
+            </position>
+            <bundle>
+                <artifact>nifi-standard-nar</artifact>
+                <group>org.apache.nifi</group>
+                <version>1.11.3</version>
+            </bundle>
+            <config>
+                <bulletinLevel>WARN</bulletinLevel>
+                <comments>${now():to_number():plus(${timezone}:multiply(3600000):format('yyyyMMddHHmmss')}</comments>
+                <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                <descriptors>
+                    <entry>
+                        <key>record-reader</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.serialization.RecordReaderFactory</identifiesControllerService>
+                            <name>record-reader</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>record-writer</key>
+                        <value>
+                            <identifiesControllerService>org.apache.nifi.serialization.RecordSetWriterFactory</identifiesControllerService>
+                            <name>record-writer</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>replacement-value-strategy</key>
+                        <value>
+                            <name>replacement-value-strategy</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>/table</key>
+                        <value>
+                            <name>/table</name>
+                        </value>
+                    </entry>
+                    <entry>
+                        <key>/time</key>
+                        <value>
+                            <name>/time</name>
+                        </value>
+                    </entry>
+                </descriptors>
+                <executionNode>ALL</executionNode>
+                <lossTolerant>false</lossTolerant>
+                <penaltyDuration>30 sec</penaltyDuration>
+                <properties>
+                    <entry>
+                        <key>record-reader</key>
+                        <value>5345d983-c1b6-3d9d-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>record-writer</key>
+                        <value>f677a16a-6055-3428-0000-000000000000</value>
+                    </entry>
+                    <entry>
+                        <key>replacement-value-strategy</key>
+                        <value>literal-value</value>
+                    </entry>
+                    <entry>
+                        <key>/table</key>
+                        <value>${table_name}</value>
+                    </entry>
+                    <entry>
+                        <key>/time</key>
+                        <value>${now():format('yyyyMMddHHmmss')}</value>
+                    </entry>
+                </properties>
+                <runDurationMillis>0</runDurationMillis>
+                <schedulingPeriod>0 sec</schedulingPeriod>
+                <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                <yieldDuration>1 sec</yieldDuration>
+            </config>
+            <executionNodeRestricted>false</executionNodeRestricted>
+            <name>UpdateRecord</name>
+            <relationships>
+                <autoTerminate>true</autoTerminate>
+                <name>failure</name>
+            </relationships>
+            <relationships>
+                <autoTerminate>false</autoTerminate>
+                <name>success</name>
+            </relationships>
+            <state>RUNNING</state>
+            <style/>
+            <type>org.apache.nifi.processors.standard.UpdateRecord</type>
+        </processors>
+    </snippet>
+    <timestamp>03/26/2020 00:01:13 ICT</timestamp>
+</template>
